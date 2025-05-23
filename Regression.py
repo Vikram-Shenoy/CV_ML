@@ -38,7 +38,12 @@ else:
 
 # --- End of MODIFICATION ---
 
-
+# Snippet for deleting rows (place after loading X and y, before train_test_split)
+# Ensure X and y are aligned by index
+print(f"Original number of rows in X: {len(X)}")
+X = X.dropna()
+y = y.loc[X.index] # Keep corresponding rows in y
+print(f"Number of rows in X after dropna: {len(X)}")
 
 # Display the first few rows and info to verify (optional, but good practice)
 print("--- Input Features (X) Head ---")
