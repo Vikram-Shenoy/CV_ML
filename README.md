@@ -3,9 +3,9 @@ This is a repository for experimenting with ML models to achieve CV goals
 
 ### EDA
 
-### Missing Values Per Column
+### Total Missing Values Per Column (possibly due to occlusion)
 
-| Column        | Missing Values |
+| Column        | Total Missing Values |
 |---------------|----------------|
 | A_x           | 27             |
 | A_y           | 27             |
