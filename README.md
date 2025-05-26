@@ -26,3 +26,6 @@ Percentage of missing data in X: 2.02%
 
 ### Regression.py
 - Basic regression
+
+### Circle detection logic 
+- Folder which contains logic for circle detection using Hough Circles
