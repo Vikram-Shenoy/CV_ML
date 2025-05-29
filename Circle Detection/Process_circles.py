@@ -28,8 +28,8 @@ def find_circle_data_and_annotate(image_path):
     # param2: Accumulator threshold for circle centers. Smaller means more (possibly false) circles.
     # minRadius: Minimum circle radius to detect (in pixels).
     # maxRadius: Maximum circle radius to detect (in pixels).
-    circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, dp=1.2, minDist=100,
-                               param1=100, param2=30, minRadius=10, maxRadius=300) # EXAMPLE VALUES - TUNE THESE!
+    circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, dp=1, minDist=20,
+                               param1=30, param2=15, minRadius=5, maxRadius=30)  # EXAMPLE VALUES - TUNE THESE!
 
     final_x, final_y, final_r = None, None, None
     annotated_image_to_return = None # This will hold the image with drawings
