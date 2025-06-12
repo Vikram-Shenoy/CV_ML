@@ -32,5 +32,6 @@ Percentage of missing data in X: 2.02%
 
 - Script that counts number of frames in a video to detect framerate
 
-### Circle detection logic 
+### Circle detection logic
+
 - Folder which contains logic for circle detection using Hough Circles
