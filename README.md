@@ -25,7 +25,12 @@ Total missing values in X: 393
 Percentage of missing data in X: 2.02%
 
 ### Regression.py
+
 - Basic regression
+  
+## get_fps.py
+
+- Script that counts number of frames in a video to detect framerate
 
 ### Circle detection logic 
 - Folder which contains logic for circle detection using Hough Circles
